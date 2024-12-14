@@ -26,18 +26,18 @@ pass - is used to prevent an error when an empty block is not allowed
 #         print(f"Your number is {x}")
 #         break
 
-# Function to keep asking for a number until a number is entered
-def main():
-    x = get_int()
-    print(f"Your number is {x}")
+# # Function to keep asking for a number until a number is entered
+# def main():
+#     x = get_int()
+#     print(f"Your number is {x}")
 
-def get_int():
-    while True:
-        try:
-            x = int(input("Enter a number: "))
-        except ValueError:
-            print("Invalid input. Please enter a number.")
-        else:
-            return x
+# def get_int():
+#     while True:
+#         try:
+#             x = int(input("Enter a number: "))
+#         except ValueError:
+#             print("Invalid input. Please enter a number.")
+#         else:
+#             return x
 
-main()
+# main()
